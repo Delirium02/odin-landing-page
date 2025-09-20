@@ -1,15 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 .div-1 {
     display: flex;
     margin: 0 auto;
     align-items: center;
+    justify-content: center;
 }
 
-#link-1, #link-2, #link-3 {
+.header-links {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-evenly;
     align-items: end;
     
+}
+
+
+.h2-sec2 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
