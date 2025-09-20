@@ -1,27 +1,44 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
 
+
+.section-1 {
+    background-color: rgb(46, 46, 46);
+    border: 2px solid rgba(78, 78, 181, 0.933); 
+    color: rgb(219, 214, 214);
+
+}
 
 .logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.div-1 {
+.page-title {
     display: flex;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    margin: 20px auto auto 200px;
 }
 
 .header-links {
     display: flex;
-    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
     align-items: end;
-    
+    gap: 50px;
+}
+
+.header-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
 }
 
 
