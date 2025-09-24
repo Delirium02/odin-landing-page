@@ -18,23 +18,22 @@
 
 .logo {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .page-title {
     display: flex;
-    margin: 20px auto auto 100px;
+    margin-left: 100px;
 }
 
 .header-links {
     display: flex;
     width: 350px;
-    margin-right: 50px;
-    margin-top: 20px;
-    justify-content: space-between;
+    margin-right: 100px;
+    justify-content: space-evenly;
     align-items: end;
-    gap: 50px;
+    gap: 40px;
 }
 
 .header-links a {
@@ -46,15 +45,30 @@
     background-color: rgba(211, 211, 211, 0.933);;
 }
 
-.main-text {
-    max-width: 450px;
-    margin: 50px 0 0 100px
+hr {
+    border: 1px solid white;
+    width: 95%;
+}
 
+.div-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1;
+    margin-top: 10px;
+}
+
+.header-text {
+    max-width: 450px;
+    margin: 50px 0 0 100px;
 }
 
 .sub-text {
     max-width: 450px;
-    margin: 20px 0 0 100px
+    margin: 20px 0 0 100px;
 }
 
 .btn {
@@ -64,31 +78,28 @@
 }
 
 .btn:hover {
-    background-color: rgb(78, 78, 181);
+    background-color: rgb(58, 58, 58);
     color: white;
     cursor: pointer;
     border-radius: 5px;
+    transition: 50ms;
 }
 
-.text-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.img-1 {
+.image-content {
+    flex: 1;
     display: flex;
     justify-content: center;
-    max-width: 600px;
-    max-height: 500px;
-    width: 200px;
-    height: 200px;
-    margin: 20px 20px 20px 1000px;
-    border: 5px solid #eee;
-    align-items: end;
+    align-items: center;
 }
 
-.h2-sec2 {
+.image-content img {
+  width: 100%;
+  max-width: 500px;
+  background: #667;
+  padding: 40px;
+}
+
+.images-header-text {
     text-align: center;
     margin-bottom: 20px;
 }
