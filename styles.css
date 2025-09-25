@@ -160,24 +160,44 @@ figure figcaption {
 }
 
 .section-4 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: rgb(46, 46, 46);
     padding-top: 10px;
     padding-bottom: 10px;
     color: rgb(219, 214, 214);
 }
 
-.section-box {
-    padding: 10px 200px;
-    margin: 20px 0 20px 0;
+.div-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
     background-color: rgb(0, 39, 62);
     border-radius: 20px;
+    max-width: 900px;
+    margin: 50px auto;
 }
 
+.sec4-main {
+    margin-bottom: 5px;
+}
+
+
+
 .sign-up-btn {
-    margin-bottom: 10px;
+    background-color: rgb(150, 189, 239);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sign-up-btn:hover {
+    background-color: rgb(6, 6, 122);
+    color: white;
+}
+
+.sign-up-btn:active {
+    background: rgb(0, 0, 48);
+    transform: scale(0.95);
 }
 
 footer {
@@ -185,4 +205,6 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
 }
